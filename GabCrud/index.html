@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Login</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="container">
+
+        <section class="page">
+            <div class="card">
+
+                <h1>Login</h1>
+
+                <p class="subtitle">
+                    Entre na sua conta
+                </p>
+
+                <form id="loginForm">
+
+                    <label for="loginEmail">
+                        E-mail
+                    </label>
+
+                    <input
+                        type="email"
+                        id="loginEmail"
+                        placeholder="Digite seu e-mail"
+                        required
+                    >
+
+                    <label for="loginPassword">
+                        Senha
+                    </label>
+
+                    <input
+                        type="password"
+                        id="loginPassword"
+                        placeholder="Digite sua senha"
+                        required
+                    >
+
+                    <button type="submit">
+                        Entrar
+                    </button>
+
+                </form>
+
+                <p
+                    id="loginMessage"
+                    class="message"
+                ></p>
+
+                <button
+                    type="button"
+                    class="link-button"
+                    onclick="window.location.href='cadastro.html'"
+                >
+                    Criar uma conta
+                </button>
+
+            </div>
+        </section>
+        <footer>Feito por mim mesmo que vos escreve, e ideia de marmar do theus, vulgo Marsali boy</footer>
+
+    </main>
+
+    <script src="script.js"></script>
+
+
+</body>
+</html>
